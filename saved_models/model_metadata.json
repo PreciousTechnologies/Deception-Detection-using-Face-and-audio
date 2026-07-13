@@ -1,0 +1,37 @@
+{
+  "model": "EfficientNet-B0",
+  "weights": "IMAGENET1K_V1",
+  "label_map": {
+    "truth": 0,
+    "deception": 1
+  },
+  "input_shape": [
+    3,
+    224,
+    224
+  ],
+  "target_size": [
+    224,
+    224
+  ],
+  "imagenet_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "imagenet_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "epochs_trained": 22,
+  "phase1_epochs": 10,
+  "best_val_loss": 0.48233933350785035,
+  "test_accuracy": 0.8088785046728972,
+  "test_f1_macro": 0.8086678956375903,
+  "test_precision": 0.8088482040773902,
+  "test_recall": 0.8101754385964912,
+  "test_auc": 0.8754078947368422,
+  "split_strategy": "video_level",
+  "device": "cuda"
+}

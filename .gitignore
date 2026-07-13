@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Large data files (use Google Drive / Colab for these)
+DOLOSDATA/raw_videos/
+audio_output/
+av_output/
+cv_output/
+
+# Cached numpy files
+*.npz
+*.npy
+
+# Trained model weights (download during training)
+saved_models/*.pth
+saved_models/*.pt
+
+# Excel lock files
+~$*.xlsx
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
+uv_install_log.txt
+uv_install_err.txt
+
+# Jupyter
+.ipynb_checkpoints/

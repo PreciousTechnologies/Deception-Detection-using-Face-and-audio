@@ -1,0 +1,2 @@
+& "C:\Users\OMEN\AppData\Roaming\Python\Python314\Scripts\uv.exe" pip install --python "C:\Users\OMEN\Desktop\DECEPTION DETECTION USING VIDEOS AND FACE\.venv\Scripts\python.exe" torch torchvision --index-url https://download.pytorch.org/whl/cu124
+& "C:\Users\OMEN\AppData\Roaming\Python\Python314\Scripts\uv.exe" pip install --python "C:\Users\OMEN\Desktop\DECEPTION DETECTION USING VIDEOS AND FACE\.venv\Scripts\python.exe" opencv-python-headless scikit-learn pandas matplotlib seaborn tqdm pillow
